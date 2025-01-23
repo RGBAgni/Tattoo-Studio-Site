@@ -1,0 +1,53 @@
+
+
+.bg-img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    left: -25px;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.fixed-background {
+    background-image: url('Images/RedTiger.svg'); 
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+  }
+
+.header {
+    flex: 1;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  .navbar {
+white-space: nowrap;
+    flex: 1;
+    height: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  .titles {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  .searchbox {
+    margin-left: 5%;
+    margin-right: 10%;
+ }
+
