@@ -8,58 +8,90 @@
   <link rel="stylesheet" href="FormWithValidationStyle.css">
   <link rel="stylesheet" href="bootstrapFRESH.css">
   <link rel="stylesheet" href="MyStyleSheet.css">
-
 </head>
 
 <body class="bg-danger-subtle">
 
-  <div class="fixed-background">
+<!--navigation bar-->
+<nav class="navbar navbar-expand-lg mb-5 bg-light" style="--bs-bg-opacity: .75;">
+  <div class="container-fluid">
+    <img src="Images/BlackTiger.svg" class=max height="70px" width="110px" alt="...">
+    <a class="navbar-brand text-black header" href="TattooStudioHomePage - Copy.html">KISMET INK</a>
 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active text-black" aria-current="page" href="TattooStudioAbout.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="TattooStudioFAQ.html">FAQ</a>
+        </li>
 
-  <nav class="navbar navbar-expand-lg mb-5 bg-light" style="--bs-bg-opacity: .75;">
-    <div class="container-fluid">
-      <img src="Images/BlackTiger.svg" class=max height="70px" width="110px" alt="...">
-      <a class="navbar-brand text-black header" href="TattooStudioHomePage - Copy.html">KISMET INK</a>
+            <li class="nav-item dropdown d-flex align-items-center">
+              <!--link to main artists page-->
+              <a class="nav-link text-black" href="TattooStudioArtists.html">artists</a>
+            
+              <!--dropdown toggle-->
+              <a class="nav-link dropdown-toggle dropdown-toggle-split text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">toggle dropdown</span>
+              </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active text-black" aria-current="page" href="#">about</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black" href="TattooStudioFAQ.html">FAQ</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black" href="TattooStudioArtists.html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              artists</a>
-            <ul class="dropdown-menu bg-danger">
-              <li><a class="dropdown-item text-black" href="TattooStudioNAILA.html">NAILA the realism rebel</a></li>
-              <li><a class="dropdown-item text-black" href="TattooStudioELLEN.html">ELLEN the trad queen</a></li>
-              <li><a class="dropdown-item text-black" href="TattooStudioMARI.html">MARI the concept slayer</a></li>
-              <li><a class="dropdown-item text-black" href="TattooStudioEMILIO.html">EMILIO the needle king</a></li>
-              
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black" href="FormWithValidation.html">contact</a>
-          </li>
-        </ul>
-        <form class="d-flex align-items-center" role="search">
-          <input class="form-control" type="search" placeholder="what are you seeking?" aria-label="Search">
-          <button class="btn btn-outline-danger text-black" type="submit">search</button>
-        </form>
+          <!--dropdown menu-->
+          <ul class="dropdown-menu bg-danger-subtle">
+            <li><a class="dropdown-item text-black" href="TattooStudioNAILA.html">NAILA the realism rebel</a></li>
+            <li><a class="dropdown-item text-black" href="TattooStudioELLEN.html">ELLEN the trad queen</a></li>
+            <li><a class="dropdown-item text-black" href="TattooStudioMARI.html">MARI the concept slayer</a></li>
+            <li><a class="dropdown-item text-black" href="TattooStudioEMILIO.html">EMILIO the needle king</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="FormWithValidation.html">contact</a>
+        </li>
+      </ul>
+      <form class="d-flex align-items-center" role="search">
+        <input class="form-control" type="search" placeholder="what are you seeking?" aria-label="Search">
+        <button class="btn btn-outline-danger text-black" type="submit">search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<br>
+
+<!--contact info section-->
+   <div class="container shadow rounded">
+      <div class="row">
+        <div class="col-md-12 bg-light border" style="--bs-bg-opacity: .75;">
+          <div class="p-4">
+            <br>
+            <h1 style="text-align: center;" class="heading">CONTACT</h1>
+            <br>
+            <p style="text-align: left; " class="card-text">
+            <b>phone:</b> +35642000000 </p>
+            <p style="text-align: left; " class="card-text">
+            <b>whatsapp:</b> +35699000000 </p>
+            <p style="text-align: left; " class="card-text">
+            <b>email for bookings:</b> book@kismetink.com </p>
+            <p style="text-align: left; " class="card-text">
+            <b>email for inquiries and general info:</b> info@kismetink.com </p>
+            <p style="text-align: left; " class="card-text">
+            <b>our shop:</b> 42 mermaid lane, sliema seafront, SLM 1587, malta </p>
+            </div>
+        </div>
       </div>
     </div>
-  </nav>
-  
     <br>
+    <div class="container shadow rounded">
+      <div class="row">
+        <div class="col-md-12 bg-light border" style="--bs-bg-opacity: .75;">
+          <div class="p-4">
 
-
+  <!--contact booking form-->
+  <br>
   <h1 style="text-align: center;" class="heading">CONTACT/BOOKING FORM</h1>
   <form class="form" onsubmit="return validate();" action="mailto:kismetink@gmail.com" method="post"
     enctype="text/plain">
@@ -174,10 +206,15 @@
     </div>
 
   </form>
-
   <ul id="errorList" class="hidden">
-
   </ul>
+
+</div>
+</div>
+</div>
+</div>
+
+<br>
 
   <script src="FormWithValidationJava.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

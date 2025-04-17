@@ -31,12 +31,19 @@
   font-family:'Courier New', Courier, monospace
 }
 
-.fixed-background {
+/*.fixed-background {
     background-image: url('Images/RedTiger.svg'); 
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 100%; 
+    height: 100vh; 
+  }*/
+
+  body {
+    background-image: url('Images/RedTiger.svg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
   }
 
 .header {
@@ -70,6 +77,11 @@ white-space: nowrap;
     margin-left: 5%;
     margin-right: 10%;
  }
+
+ .dropdown-menu .dropdown-item {
+  font-size: 22px !important;
+}
+
 
  form {
   display: flex;

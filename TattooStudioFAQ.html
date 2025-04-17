@@ -8,61 +8,64 @@
   <link rel="stylesheet" href="FormWithValidationStyle.css">
   <link rel="stylesheet" href="bootstrapFRESH.css">
   <link rel="stylesheet" href="MyStyleSheet.css">
-
 </head>
 
 <body class="bg-danger-subtle">
 
-  <div class="fixed-background">
+<!--navigation bar-->
+<nav class="navbar navbar-expand-lg mb-5 bg-light" style="--bs-bg-opacity: .75;">
+  <div class="container-fluid">
+    <img src="Images/BlackTiger.svg" class=max height="70px" width="110px" alt="...">
+    <a class="navbar-brand text-black header" href="TattooStudioHomePage - Copy.html">KISMET INK</a>
 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active text-black" aria-current="page" href="TattooStudioAbout.html">about</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="TattooStudioFAQ.html">FAQ</a>
+        </li>
 
-  <nav class="navbar navbar-expand-lg mb-5 bg-light" style="--bs-bg-opacity: .75;">
-    <div class="container-fluid">
-      <img src="Images/BlackTiger.svg" class=max height="70px" width="110px" alt="...">
-      <a class="navbar-brand text-black header" href="TattooStudioHomePage - Copy.html">KISMET INK</a>
+            <li class="nav-item dropdown d-flex align-items-center">
+              <!--link to main artists page-->
+              <a class="nav-link text-black" href="TattooStudioArtists.html">artists</a>
+            
+              <!--dropdown toggle-->
+              <a class="nav-link dropdown-toggle dropdown-toggle-split text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">toggle dropdown</span>
+              </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active text-black" aria-current="page" href="#">about</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black" href="TattooStudioFAQ.html">FAQ</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black" href="TattooStudioArtists.html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              artists</a>
-            <ul class="dropdown-menu bg-danger">
-              <li><a class="dropdown-item text-black" href="TattooStudioNAILA.html">NAILA the realism rebel</a></li>
-              <li><a class="dropdown-item text-black" href="TattooStudioELLEN.html">ELLEN the trad queen</a></li>
-              <li><a class="dropdown-item text-black" href="TattooStudioMARI.html">MARI the concept slayer</a></li>
-              <li><a class="dropdown-item text-black" href="TattooStudioEMILIO.html">EMILIO the needle king</a></li>
-              
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-black" href="FormWithValidation.html">contact</a>
-          </li>
-        </ul>
-        <form class="d-flex align-items-center" role="search">
-          <input class="form-control" type="search" placeholder="what are you seeking?" aria-label="Search">
-          <button class="btn btn-outline-danger text-black" type="submit">search</button>
-        </form>
-      </div>
+          <!--dropdown menu-->
+          <ul class="dropdown-menu bg-danger-subtle">
+            <li><a class="dropdown-item text-black" href="TattooStudioNAILA.html">NAILA the realism rebel</a></li>
+            <li><a class="dropdown-item text-black" href="TattooStudioELLEN.html">ELLEN the trad queen</a></li>
+            <li><a class="dropdown-item text-black" href="TattooStudioMARI.html">MARI the concept slayer</a></li>
+            <li><a class="dropdown-item text-black" href="TattooStudioEMILIO.html">EMILIO the needle king</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-black" href="FormWithValidation.html">contact</a>
+        </li>
+      </ul>
+      <form class="d-flex align-items-center" role="search">
+        <input class="form-control" type="search" placeholder="what are you seeking?" aria-label="Search">
+        <button class="btn btn-outline-danger text-black" type="submit">search</button>
+      </form>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <br>
-
-
-  <h1 style="text-align: center;" class="heading">FAQ</h1>
+<!--faq section- questions with answers appearing on click-->
   <div class="container my-4">
+    <h1 style="text-align: center; font-weight: bold" class="faq-box">FAQ</h1>
     <div class="faq-box">
+      
       <div class="faq-question" onclick="toggleAnswer(this)">
         how do i book an appointment?
       </div>
@@ -275,8 +278,6 @@ piercing prices depend on the difficulty of the piercing, material required, etc
       </div>
     </div>
   </div>
-  
-
 <br>
 
   <script src="FormWithValidationJava.js"></script>

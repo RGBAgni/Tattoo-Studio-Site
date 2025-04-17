@@ -13,10 +13,8 @@
 
 <body class="bg-danger-subtle">
 
-  <div class="fixed-background">
-
-
-  <nav class="navbar navbar-expand-lg mb-5 bg-light" style="--bs-bg-opacity: .75;">
+<!--navigation bar-->
+<nav class="navbar navbar-expand-lg mb-5 bg-light" style="--bs-bg-opacity: .75;">
     <div class="container-fluid">
       <img src="Images/BlackTiger.svg" class=max height="70px" width="110px" alt="...">
       <a class="navbar-brand text-black header" href="TattooStudioHomePage - Copy.html">KISMET INK</a>
@@ -28,16 +26,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active text-black" aria-current="page" href="#">about</a>
+            <a class="nav-link active text-black" aria-current="page" href="TattooStudioAbout.html">about</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-black" href="TattooStudioFAQ.html">FAQ</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-black" href="TattooStudioArtists.html" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              artists</a>
-            <ul class="dropdown-menu bg-danger">
+
+              <li class="nav-item dropdown d-flex align-items-center">
+                <!--link to main artists page-->
+                <a class="nav-link text-black" href="TattooStudioArtists.html">artists</a>
+              
+                <!--dropdown toggle-->
+                <a class="nav-link dropdown-toggle dropdown-toggle-split text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="visually-hidden">toggle dropdown</span>
+                </a>
+
+            <!--dropdown menu-->
+            <ul class="dropdown-menu bg-danger-subtle">
               <li><a class="dropdown-item text-black" href="TattooStudioNAILA.html">NAILA the realism rebel</a></li>
               <li><a class="dropdown-item text-black" href="TattooStudioELLEN.html">ELLEN the trad queen</a></li>
               <li><a class="dropdown-item text-black" href="TattooStudioMARI.html">MARI the concept slayer</a></li>
@@ -56,9 +61,9 @@
       </div>
     </div>
   </nav>
-
   <br>
 
+  <!--our story text and photo card-->
 <div class="container text-light shadow rounded">
     <div class="row">
       <div class="col-md-12 bg-light border" style="--bs-bg-opacity: .75;">
@@ -66,17 +71,13 @@
           <h1 class="text-center text-black titles">OUR STORY</h1>
           <p class="card-text">
             kismet ink was founded in 2022 by naila, a realism artist with a vision: tattoos that go deeper than skin. it started as a one-chair setup and quickly grew into a home for like-minded creatives. ellen joined in 2023 with her bold traditional style, emilio in 2024, a piercing visionnaire, and mari came on six months ago — a fine arts student with a quiet vibe and loud work. we’re a crew of artists, storytellers, and rebels, and this is where it all connects.        
+          </p>
             <br>
             <img src="Kismet Images/kismetfacade.png" class="img-fluid" style="object-fit: cover;" alt="tattoo">
         </div>
         </div>
     </div>
   </div>
-
-      
-
-<br> 
-
 <br>
 
 <script src="scripts/bootstrap.bundle.min.js"></script>
