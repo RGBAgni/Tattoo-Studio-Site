@@ -11,6 +11,26 @@
     background-attachment: fixed;
 }
 
+.card-text {   
+  text-align: center; 
+  color: black;
+  font-size: 25px;
+  font-family:'Courier New', Courier, monospace
+}
+
+.card-text-artist {
+  text-align: center; 
+  color: black;
+  font-size: 35px;
+  font-family:'Courier New', Courier, monospace
+}
+
+.button-text {
+  text-align: center; 
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace
+}
+
 .fixed-background {
     background-image: url('Images/RedTiger.svg'); 
     background-attachment: fixed;
@@ -21,7 +41,7 @@
 
 .header {
     flex: 1;
-    font-size: 30px;
+    font-size: 50px;
     font-family:'Courier New', Courier, monospace
   }
 
@@ -32,7 +52,7 @@ white-space: nowrap;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-family:'Courier New', Courier, monospace
   }
 
@@ -51,3 +71,60 @@ white-space: nowrap;
     margin-right: 10%;
  }
 
+ form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  margin: 0 auto;
+}
+input, select, textarea, button {
+  padding: 8px;
+  font-size: 16px;
+  width: 100%; 
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace
+}
+
+legend {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  font-family:'Courier New', Courier, monospace
+}
+
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.faq-box {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+}
+
+.faq-question {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 5px;
+  font-weight: normal;
+}

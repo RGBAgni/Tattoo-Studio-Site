@@ -1,16 +1,25 @@
 .reset{
     color: rgb(255, 255, 255);
-    background-color: #80b1dc;
+    background-color: #8d8d8d;
     border: color(rec2020 red green blue);
     cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
    
+}
+
+.text-submit{
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace   
 }
  
 .reset:hover{
-    background-color: #1f5cad;
+    background-color: #ff7b7b;
 }
  
-/*Hidden elements*/
+
 .hidden{
     display: none;
 }
@@ -24,3 +33,51 @@
 .inputError::placeholder{    
     color: rgb(255, 0, 0);
 }
+
+#age {
+    max-width: 300px; 
+  }
+
+  .text-label {
+    font-size: 15px;
+    font-weight: normal;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  .text-age {
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+  }
+
+  .age-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .age-option label {
+    width: 150px;
+    margin: 0;
+    
+  }
+
+  .age-option input[type="radio"] {
+    margin: 0;
+  }
+
+  .checkbox-format {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+  }
+
+
+  .checkbox-format label {
+    margin: 0;
+    white-space: nowrap; 
+  }
+
