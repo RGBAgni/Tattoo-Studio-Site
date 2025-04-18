@@ -1,3 +1,4 @@
+/* reset button styling */
 .reset{
     color: rgb(255, 255, 255);
     background-color: #8d8d8d;
@@ -9,41 +10,49 @@
    
 }
 
+/* submit button styling */
 .text-submit{
     font-size: 14px;
     font-weight: bold;
     font-family:'Courier New', Courier, monospace   
 }
  
+/* hover effect for reset button */
 .reset:hover{
     background-color: #ff7b7b;
 }
  
-
+/* to hide error list*/
 .hidden{
     display: none;
 }
 
+/* to highlight fields with input errors */
 .inputError{    
     color: rgb(145, 0, 0);
     background-color: #ffe4e4;
     border: 2px color( rgb(121, 0, 0));
 }
 
+/* input error placeholder*/
 .inputError::placeholder{    
     color: rgb(255, 0, 0);
 }
 
+/* age selection section width */
 #age {
     max-width: 300px; 
   }
 
+  /* text when typing personal info */
   .text-label {
     font-size: 15px;
     font-weight: normal;
     font-family:'Courier New', Courier, monospace
   }
 
+  
+/* age choice text */
   .text-age {
     font-size: 14px;
     letter-spacing: -1px;
@@ -51,6 +60,7 @@
     font-family:'Courier New', Courier, monospace
   }
 
+  /* parameters for age radio button layout */
   .age-option {
     display: flex;
     align-items: center;
@@ -58,16 +68,19 @@
     margin-bottom: 10px;
   }
 
+    /* same */
   .age-option label {
     width: 150px;
     margin: 0;
     
   }
 
+      /* same */
   .age-option input[type="radio"] {
     margin: 0;
   }
 
+  /* contact for offers checkbox layout parameters */
   .checkbox-format {
     display: flex;
     align-items: center;
@@ -75,7 +88,7 @@
     margin: 0;
   }
 
-
+      /* same */
   .checkbox-format label {
     margin: 0;
     white-space: nowrap; 

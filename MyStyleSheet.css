@@ -11,6 +11,8 @@
     background-attachment: fixed;
 }
 
+
+/* text style within cards */
 .card-text {   
   text-align: center; 
   color: black;
@@ -18,6 +20,7 @@
   font-family:'Courier New', Courier, monospace
 }
 
+/* text for artis names under photos */
 .card-text-artist {
   text-align: center; 
   color: black;
@@ -25,13 +28,15 @@
   font-family:'Courier New', Courier, monospace
 }
 
+/* 'about' artists buttons */
 .button-text {
   text-align: center; 
   font-size: 20px;
   font-family:'Courier New', Courier, monospace
 }
 
-/*.fixed-background {
+/* unused as it caused the image to stretch only as far down as the content of the pages
+.fixed-background {
     background-image: url('Images/RedTiger.svg'); 
     background-attachment: fixed;
     background-size: cover;
@@ -39,6 +44,8 @@
     height: 100vh; 
   }*/
 
+
+  /* background image definements */
   body {
     background-image: url('Images/RedTiger.svg');
     background-attachment: fixed;
@@ -46,12 +53,14 @@
     background-position: center;
   }
 
+  /* kismet ink main title in navbar */
 .header {
     flex: 1;
     font-size: 50px;
     font-family:'Courier New', Courier, monospace
   }
 
+  /* navbar link text styling */
   .navbar {
 white-space: nowrap;
     flex: 1;
@@ -63,6 +72,7 @@ white-space: nowrap;
     font-family:'Courier New', Courier, monospace
   }
 
+  /* main text at top of pages styling */
   .titles {
     flex: 1;
     margin-left: auto;
@@ -73,16 +83,18 @@ white-space: nowrap;
     font-family:'Courier New', Courier, monospace
   }
 
+  /* searchbox definements */
   .searchbox {
     margin-left: 5%;
     margin-right: 10%;
  }
 
+ /* marked as inmportant to override bootstrap and increase font size of dropdown menu list */
  .dropdown-menu .dropdown-item {
   font-size: 22px !important;
 }
 
-
+  /* form container style */
  form {
   display: flex;
   flex-direction: column;
@@ -90,17 +102,22 @@ white-space: nowrap;
   width: 300px;
   margin: 0 auto;
 }
+
+/* common element style */
 input, select, textarea, button {
   padding: 8px;
   font-size: 16px;
   width: 100%; 
 }
+
+/* label style */
 label {
   font-size: 20px;
   font-weight: bold;
   font-family:'Courier New', Courier, monospace
 }
 
+/* form headings */
 legend {
   font-size: 25px;
   font-weight: bold;
@@ -108,19 +125,21 @@ legend {
   font-family:'Courier New', Courier, monospace
 }
 
-
+/* form section headings */
 .heading {
   font-size: 40px;
   font-weight: bold;
   font-family:'Courier New', Courier, monospace
 }
 
+/* radio group definements */
 .radio-group {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
+/* FAQ container styling */
 .faq-box {
   background-color: rgb(255, 255, 255);
   padding: 10px;
@@ -129,12 +148,14 @@ legend {
   color: black;
 }
 
+/* FAQ text styling */
 .faq-question {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
 }
 
+/* FAQ answer styling */
 .faq-answer {
   display: none;
   margin-top: 5px;
